@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <script type="text/javascript">
+      const play = () => {
+        new Audio("./slack.mp3").play();
+
+        setTimeout(play, Math.random() * (2000 - 100) + 100);
+      };
+
+      play();
+    </script>
+  </body>
+</html>
